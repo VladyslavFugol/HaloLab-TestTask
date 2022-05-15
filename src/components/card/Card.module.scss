@@ -1,0 +1,90 @@
+@import 'src/styles/variables';
+
+.container {
+  width: 352px;
+  padding: 32px;
+  margin: 0 24px 48px 24px;
+  border-radius: 24px;
+  color: $black-100;
+  background-color: $white-100;
+
+  @media (max-width: 410px) {
+    width: 280px;
+    margin: 0 0 48px 0;
+  }
+}
+
+.category {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.title {
+  margin: 0 0 40px 0;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  height: 100%;
+
+  &Icon {
+    align-self: flex-start;
+    margin: 5px 4px 0 0;
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  &Numbers {
+    font-size: 60px;
+    letter-spacing: -0.02em;
+  }
+
+  @media (max-width: 410px) {
+    .price {
+      &Icon {
+        align-self: flex-start;
+        margin: 0px 4px 0 0;
+        font-size: 25px;
+        line-height: 35px;
+      }
+
+      &Numbers {
+        font-size: 45px;
+        letter-spacing: -0.02em;
+      }
+    }
+  }
+}
+
+.button {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: 1px solid $gray-400;
+  border-radius: 16px;
+  color: $green-300;
+  background: none;
+  transition: 0.2s;
+
+  &:hover {
+    color: $white-100;
+    background-color: $green-300;
+  }
+}
+

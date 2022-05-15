@@ -1,0 +1,38 @@
+@import 'src/styles/variables';
+
+.label {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 60px;
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid $gray-500;
+}
+
+.input {
+  width: 90%;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: $gray-700;
+}
+
+.image {
+  align-self: center;
+  margin: 0 0 0 5px;
+}
+
+.container {
+  margin: 0 0 32px 0;
+}
+
+.error {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: $red-400;
+}
