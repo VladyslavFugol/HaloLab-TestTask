@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HaloLab-TestTask/static/css/main.4fd50ca0.css",
-    "main.js": "/HaloLab-TestTask/static/js/main.d87ac061.js",
+    "main.js": "/HaloLab-TestTask/static/js/main.bc731125.js",
     "index.html": "/HaloLab-TestTask/index.html",
     "static/media/error-icon.svg": "/HaloLab-TestTask/static/media/error-icon.17a9a679b92b5d58500e17e87181b347.svg",
     "static/media/exit-icon.svg": "/HaloLab-TestTask/static/media/exit-icon.61bc0d9f80ef2ccf6d7ce1e8bb5ba9a7.svg",
     "main.4fd50ca0.css.map": "/HaloLab-TestTask/static/css/main.4fd50ca0.css.map",
-    "main.d87ac061.js.map": "/HaloLab-TestTask/static/js/main.d87ac061.js.map"
+    "main.bc731125.js.map": "/HaloLab-TestTask/static/js/main.bc731125.js.map"
   },
   "entrypoints": [
     "static/css/main.4fd50ca0.css",
-    "static/js/main.d87ac061.js"
+    "static/js/main.bc731125.js"
   ]
 }
