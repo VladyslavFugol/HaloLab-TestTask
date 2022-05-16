@@ -1,5 +1,5 @@
 import { ReactComponent as Exit } from 'assets/exit-icon.svg'
-import OrderForm from '../signup-form/OrderForm'
+import OrderForm from '../order-form/OrderForm'
 import styles from './Modal.module.scss'
 
 function Modal({ isModalOpen, closeModal, modalCardInfo }) {

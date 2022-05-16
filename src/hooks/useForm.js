@@ -25,7 +25,6 @@ function useForm(initialValues = {}, validations = [], onSubmit = () => {
     setValues(newValues)
     setErrors(errors)
     setValid(isValid)
-    setTouched({ ...touched, [event.target.name]: true })
   }
 
   const onBlur = (event) => {
@@ -47,6 +46,14 @@ function useForm(initialValues = {}, validations = [], onSubmit = () => {
       onSubmit(values)
     } else {
       setErrors(errors)
+
+      const changedTouched = Object.assign({}, values)
+
+      for (let key in changedTouched) {
+        changedTouched[key] = true
+      }
+
+      setTouched(changedTouched)
     }
   }
 

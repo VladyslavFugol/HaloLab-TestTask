@@ -1,5 +1,6 @@
 import { ReactComponent as ErrorIcon } from 'assets/error-icon.svg'
 import styles from './Input.module.scss'
+import loader from '../../loader/Loader';
 
 function Input(props) {
   const {
@@ -12,7 +13,9 @@ function Input(props) {
     onBlur,
   } = props
 
-  const isErrors = (touched && errors || errors)
+  console.log(touched)
+
+  const isErrors = (touched && errors)
 
   return (
     <div className={styles.container}>
